@@ -16,6 +16,7 @@ PdfTextExtractor provides simple methods for extracting text and metadata from .
 
 This library is a shell wrapper leveraging an excellent Python library called ```pdfplumber```.  As such there are some constraints:
 
+- The ```pdfplumber``` library is MIT-licensed and source can be found on Github: https://github.com/jsvine/pdfplumber
 - You must have Python v3.8, 3.9, 3.10, or 3.11 installed
 - Python must be accessible in your path as ```py```
 - You must ```pip install pdfplumber``` and associated dependencies
