@@ -2,7 +2,7 @@
 
 # PdfTextExtractor
 
-## Simple C# library for extracting text and metadata from .docx, .pptx, and .xlsx files
+## Simple C# library for extracting text and metadata from .pdf files
 
 [![NuGet Version](https://img.shields.io/nuget/v/PdfTextExtractor.svg?style=flat)](https://www.nuget.org/packages/PdfTextExtractor/) [![NuGet](https://img.shields.io/nuget/dt/PdfTextExtractor.svg)](https://www.nuget.org/packages/PdfTextExtractor)    
 
