@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PdfTextExtractor\DocumentTextExtractor.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Inputty" Version="1.0.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Sample\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="Sample\Pdf\1.pdf">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Include="Sample\Pdf\2.pdf">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Include="Sample\Pdf\3.pdf">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Include="Sample\Pdf\4.pdf">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Include="Sample\Pdf\5.pdf">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Include="Sample\Pdf\6.pdf">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Include="Sample\Pdf\7.pdf">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Include="Sample\Pdf\8.pdf">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Include="Sample\Pdf\9.pdf">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
